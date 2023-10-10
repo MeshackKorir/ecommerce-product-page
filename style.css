@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    background-color: white;
+}
+
+.nav-bar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.ul >ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    font-size: 20px;
+    /* margin-top: 20px; */
+}
+
+.shoe-card{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.shoe-image{
+    border-radius: 20px;
+}
