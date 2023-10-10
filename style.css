@@ -8,6 +8,9 @@
     /* align-items: center; */
 }
 
+.cart{
+    padding: 20px;
+}
 .nav-bar{
     background-color: white;
     display: flex;
@@ -43,10 +46,13 @@
 
 .img0{
     border-radius: 20px;
+
 }
 .img1{
     display: flex;
     flex-direction: row;
     margin-top: 360px;
     margin-right: 0%;
+    width: 100px;
+    border-radius: 10px;
 }
