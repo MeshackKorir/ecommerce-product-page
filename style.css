@@ -15,11 +15,12 @@
     background-color: white;
     display: flex;
     justify-content: space-between;
-    /* padding: 20px; */
+    border-bottom: 1px solid rgb(213, 209, 209);
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 30px;
     padding-right: 30px;
+    margin-bottom: 20px;
 }
 
 .ul >ul{
@@ -34,14 +35,23 @@
 
 .shoe-card{
     display: flex;
-    justify-content: flex-start;
-    padding: 20px;
+    /* justify-content: flex-start; */
+    /* padding: 20px;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 20px; */
+    flex-direction: column;
+    margin-left: 200px;
 }
 
 .shoe-image{
     border-radius: 20px;
+    /* justify-content: center; */
+    background-color: blue;
+    height: 30vh;
+    width: 90px;
+    margin-left: 100px;
+
+    /* margin-bottom: 400px; */
 }
 
 .img0{
@@ -55,4 +65,15 @@
     margin-right: 0%;
     width: 100px;
     border-radius: 10px;
+}
+
+.tiny-cards{
+    margin-top: 225px;
+    margin-left: 105px;
+    display: flex;
+    /* justify-content: flex-start;
+    align-items: flex-start; */
+    gap: 30px;
+
+
 }
