@@ -5,7 +5,7 @@
 
 .main-container{
     background-color: white;
-    /* align-items: center; */
+    align-items: center;
 }
 
 .cart{
@@ -78,4 +78,23 @@
 
 .dark{
     color: darkgray;
+}
+
+.right-card{
+    justify-content: flex-end;
+    background-color: aqua;
+    width: 700px; 
+    margin-left: 1050px;
+    margin-bottom: 900px;
+}
+
+
+.right-card >h4{
+    color: coral;
+}
+
+.last-card{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
 }
