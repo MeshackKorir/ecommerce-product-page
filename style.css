@@ -1,100 +1,182 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
+}
+.main {
+    margin: 50px;
+}
+h2 {
+    color: lightgrey;
 }
 
-.main-container{
-    background-color: white;
-    align-items: center;
-}
-
-.cart{
-    padding: 20px;
-}
-.nav-bar{
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid rgb(213, 209, 209);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-bottom: 20px;
-}
-
-.ul >ul{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
+    border-bottom: 1px solid rgb(225, 224, 224);
+  }
+
+  .logo {
+    order: 1;
+  }
+
+  .navigation {
+    text-align: center;
+    order: 2; 
+  }
+
+  .navigation ul {
     list-style: none;
-    font-size: 20px;
-    /* margin-top: 20px; */
-}
-
-.shoe-card{
     display: flex;
-    /* justify-content: flex-start; */
-    /* padding: 20px;
-    margin-left: 20px;
-    margin-right: 20px; */
-    flex-direction: column;
-    margin-left: 200px;
-}
+    justify-content: center;
+  }
 
-.shoe-image{
-    border-radius: 20px;
-    /* justify-content: center; */
-    background-color: blue;
-    height: 30vh;
-    width: 90px;
-    margin-left: 100px;
+  .navigation ul li {
+    margin: 0 10px;
+  }
 
-    /* margin-bottom: 400px; */
-}
-
-.img0{
-    border-radius: 20px;
-
-}
-.img1{
+  .profile {
     display: flex;
-    flex-direction: row;
-    margin-top: 360px;
-    margin-right: 0%;
-    width: 100px;
-    border-radius: 10px;
-}
-
-.tiny-cards{
-    margin-top: 225px;
-    margin-left: 105px;
-    display: flex;
-    /* justify-content: flex-start;
-    align-items: flex-start; */
-    gap: 30px;
-}
-
-.dark{
-    color: darkgray;
-}
-
-.right-card{
     justify-content: flex-end;
-    background-color: aqua;
-    width: 700px; 
-    margin-left: 1050px;
-    margin-bottom: 900px;
-}
+    align-items: center;
+    order: 3;
+  }
 
+  .profile img {
+    margin-right: 10px;
+  }
+  .cart{
+    margin-right: 200px;
+  }
 
-.right-card >h4{
-    color: coral;
-}
-
-.last-card{
+  .cards {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     justify-content: center;
-}
+  }
+
+  .column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-left: 80px;
+  }
+
+  .card1 {
+    background-color: rgb(244, 248, 251);
+    padding: 20px;
+    width: 90%;
+  }
+  img{
+    border-radius: 5px;
+  }
+
+  .img1 {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .card2 {
+    display: flex;
+    flex-direction: row; 
+    margin-top: 20px;
+  }
+
+  .square-cards {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin-right: 10px; 
+    margin-bottom: 10px;
+  }
+
+  .img2 {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .card3 {
+    background-color: rgb(254, 255, 254);
+    /* background-color: rgb(95, 210, 95); */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* text-align: center; */
+    margin-top: 90px;
+    height: 250px;
+    width: 70%;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+
+  .add {
+    background-color: rgb(243, 247, 248);
+    padding: 10px 30px;
+    color: orange;
+    /* text-align: center; */
+    margin-bottom: 10px;
+  }
+  .add>h4>span{
+    color: black;
+    margin: 0 10px;
+  }
+  .comp{
+    color: orange; 
+  }
+  .fall {
+    font-size: 20px;
+  }
+  .last{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .point {
+    font-weight: bold;
+  }
+  .fif{
+    color: orange;
+    font-weight: bold;
+  }
+ 
+
+  
+  .addCard{
+    background-color: orange;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* width: 100%; */
+ 
+  }
+  .para{
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .nums {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 30px;
+  }
+
+  .dollar>h4{
+    color: gray;
+    text-decoration: line-through;
+  }
